@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 setup(
     name='django-geoexplorer',
-    version='4.0.4',
+    version='4.0.5',
     author='Ariel Nunez',
     author_email='ingenieroariel@gmail.com',
     url='https://github.com/GeoNode/django-geoexplorer',
