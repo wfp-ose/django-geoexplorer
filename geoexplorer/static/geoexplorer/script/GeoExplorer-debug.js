@@ -50749,7 +50749,7 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
         var sources = {};
         this.mapPanel.layers.each(function(record){
             var layer = record.getLayer();
-            if (!(layer instanceof OpenLayers.Layer.Vector) ) {
+            
                 var id = record.get("source");
                 var source = this.layerSources[id];
                 if (!source) {
@@ -50760,7 +50760,7 @@ gxp.Viewer = Ext.extend(Ext.util.Observable, {
                 if (!sources[id]) {
                     sources[id] = source.getState();
                 }
-            }
+
         }, this);
         // update sources, adding new ones
         Ext.apply(this.sources, sources);
