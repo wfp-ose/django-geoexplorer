@@ -77655,7 +77655,8 @@ gxp.plugins.WMSCSource = Ext.extend(gxp.plugins.WMSSource, {
             }
         }
         // unless explicitly configured otherwise, use cached version
-        layer.params.TILED = (config.cached !== false) && true;
+        layer.params.TILED = config.tiled
+        //layer.params.TILED = (config.cached !== false) && true;
         return record;
     },
 
