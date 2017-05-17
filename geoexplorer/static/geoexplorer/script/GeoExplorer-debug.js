@@ -35004,7 +35004,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
                 }
                 enc[0].name = itemTitle;
                 enc[0].classes[0] = {
-                    name: "fgdfgdfg",
+                    name: "",
                     icons: icons
                 };
                 return enc;
