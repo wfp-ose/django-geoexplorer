@@ -35002,7 +35002,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
                     icons.push(this.getAbsoluteUrl(url));
                 }
                 enc[0].classes[0] = {
-                    name: "",
+                    name: "fgdfgdfg",
                     icons: icons
                 };
                 return enc;
