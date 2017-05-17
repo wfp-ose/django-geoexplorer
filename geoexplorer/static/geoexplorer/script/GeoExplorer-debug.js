@@ -34991,6 +34991,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
                 var icons = [];
                 for(var i=1, len=legend.items.getCount(); i<len; ++i) {
                     var url = legend.items.get(i).url;
+                    var itemTitle = legend.layerRecord.data.title;
                     if(legend.useScaleParameter === true &&
                        url.toLowerCase().indexOf(
                            'request=getlegendgraphic') != -1) {
@@ -35001,6 +35002,7 @@ GeoExt.data.PrintProvider = Ext.extend(Ext.util.Observable, {
                     }
                     icons.push(this.getAbsoluteUrl(url));
                 }
+                enc[0].name = itemTitle;
                 enc[0].classes[0] = {
                     name: "fgdfgdfg",
                     icons: icons
