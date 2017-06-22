@@ -59371,26 +59371,20 @@ gxp.PointSymbolizer = Ext.extend(Ext.Panel, {
             this.pointGraphics = [
 
                 {display: this.graphicXText, display:"Airport", value: "http://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Airport.png", mark: false},
+                {display: this.graphicXText, display:"Beneficiary", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Beneficiaries_neg.png", mark: false},
                 {display: this.graphicXText, display:"Bridge", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Transport_Logistics_Cluster/Bridge.png", mark: false},
                 {display: this.graphicXText, display:"Conflict", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Conflict_neg.png", mark: false},
                 {display: this.graphicXText, display:"Earthquake", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Emergency/earthquake.png", mark: false},
                 {display: this.graphicXText, display:"Port", value: "http://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Port.png", mark: false},
                 {display: this.graphicXText, display:"Refugee Camp", value: "http://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false},
-                {display: this.graphicXText, display:"Warehouse", value: "http://geonode.wfp.org/uploaded/geoserver_icons/default_warehouses.png", mark: false},
+                {display: this.graphicXText, display:"Refugee Camp", value: "http://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false},
+                {display: this.graphicXText, display:"Warehouse", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Schoolfeeding_neg.png", mark: false},
                 {display: this.graphicCircleText, value: "circle", mark: true},
                 {display: this.graphicCrossText, value: "cross", mark: true},
                 {display: this.graphicSquareText, value: "square", mark: true},
                 {display: this.graphicStarText, value: "star", mark: true},
                 {display: this.graphicTriangleText, value: "triangle", mark: true},
                 {display: this.graphicXText, value: "x", mark: true},
-                {display: this.graphicXText, display:"Less 110 Knots Forecast", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/<110_forecast.png", mark: false},
-                {display: this.graphicXText, display:"Less 110 Knots", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/<110_past.png", mark: false},
-                {display: this.graphicXText, display:"110 - 185 Knots Forecast", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/110_185_forecast.png", mark: false},
-                {display: this.graphicXText, display:"110 - 185 Knots", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/110_185_past.png", mark: false},
-                {display: this.graphicXText, display:"185 - 240 Knots Forecast", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/185_240_forecast.png", mark: false},
-                {display: this.graphicXText, display:"185 - 240 Knots", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/185_240_past.png", mark: false},
-                {display: this.graphicXText, display:"Greater 240 Knots Forecast", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/>240_forecast.png", mark: false},
-                {display: this.graphicXText, display:"Greater 240 Knots", value: "http://geonode.wfp.org/uploaded/geoserver_icons/standard/Tropical_Storms/>240_past.png", mark: false},
                 {display: this.graphicExternalText}
             ];
         }
