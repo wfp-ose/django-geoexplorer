@@ -59370,15 +59370,15 @@ gxp.PointSymbolizer = Ext.extend(Ext.Panel, {
         if (!this.pointGraphics) {
             this.pointGraphics = [
 
-                {display: this.graphicXText, display:"Airport", value: "https:///training.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Airport.png", mark: false},
+                {display: this.graphicXText, display:"Airport", value: "https:///geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Airport.png", mark: false},
                 {display: this.graphicXText, display:"Beneficiary", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Beneficiaries_neg.png", mark: false},
-                {display: this.graphicXText, display:"Bridge", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/standard/Transport_Logistics_Cluster/Bridge.png", mark: false},
-                {display: this.graphicXText, display:"Conflict", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Conflict_neg.png", mark: false},
-                {display: this.graphicXText, display:"Earthquake", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/standard/Emergency/earthquake.png", mark: false},
-                {display: this.graphicXText, display:"Port", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Port.png", mark: false},
-                {display: this.graphicXText, display:"Refugee Camp", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false},
-                {display: this.graphicXText, display:"Refugee Camp", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false},
-                {display: this.graphicXText, display:"Warehouse", value: "https://training.geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Schoolfeeding_neg.png", mark: false},
+                {display: this.graphicXText, display:"Bridge", value: "https://geonode.wfp.org/uploaded/geoserver_icons/standard/Transport_Logistics_Cluster/Bridge.png", mark: false},
+                {display: this.graphicXText, display:"Conflict", value: "https://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Conflict_neg.png", mark: false},
+                {display: this.graphicXText, display:"Earthquake", value: "https://geonode.wfp.org/uploaded/geoserver_icons/standard/Emergency/earthquake.png", mark: false},
+                {display: this.graphicXText, display:"Port", value: "https://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Port.png", mark: false},
+                {display: this.graphicXText, display:"Refugee Camp", value: "https://geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false},
+                {display: this.graphicXText, display:"Schoolfeeding", value: "https://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Schoolfeeding_neg.png", mark: false},
+                {display: this.graphicXText, display:"Warehouse", value: "https://geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Warehouse_neg.png", mark: false},
                 {display: this.graphicCircleText, value: "circle", mark: true},
                 {display: this.graphicCrossText, value: "cross", mark: true},
                 {display: this.graphicSquareText, value: "square", mark: true},
