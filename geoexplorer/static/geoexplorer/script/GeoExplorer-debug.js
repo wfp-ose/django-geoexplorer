@@ -59377,7 +59377,7 @@ gxp.PointSymbolizer = Ext.extend(Ext.Panel, {
                 {display: this.graphicXText, display:"Earthquake", value: "https://staging.geonode.wfp.org/uploaded/geoserver_icons/standard/Emergency/earthquake.png", mark: false},
                 {display: this.graphicXText, display:"Port", value: "https://staging.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/Port.png", mark: false},
                 {display: this.graphicXText, display:"Refugee Camp", value: "https://staging.geonode.wfp.org/uploaded/geoserver_icons/Global_Layers/opweb_refugee_camp.png", mark: false}, 
-                {display: this.graphicXText, display:"Warehouse", value: "https://staging.geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Schoolfeeding_neg.png", mark: false},
+                {display: this.graphicXText, display:"Warehouse", value: "https://staging.geonode.wfp.org/uploaded/geoserver_icons/standard/WFP_Corporate_Icons/Warehouse_neg.png", mark: false},
                 {display: this.graphicCircleText, value: "circle", mark: true},
                 {display: this.graphicCrossText, value: "cross", mark: true},
                 {display: this.graphicSquareText, value: "square", mark: true},
